@@ -24,9 +24,9 @@ const Index = () => {
           <div className="space-y-4">
             <p className="text-xl md:text-2xl font-medium">I'm Ryan.</p>
             <p className="text-lg text-muted-foreground">
-              I build things, break things, fix things.
+              I build things, often break thingg and sometimes fix things.
               <br />
-              Lately, I've become obsessed with how agents — autonomous AI systems — will shape the world. Not just for companies, but for communities. For families. For individuals trying to get by.
+              Lately, I've become obsessed with how agents will shape the world beyond what the headlines say. For communities. For families. For individuals trying to get by.
             </p>
           </div>
           
@@ -56,7 +56,7 @@ const Index = () => {
         </ul>
         
         <p className="pt-2">
-          If you know the answers — or even better, if you've lived through something worth sharing — I want to hear from you.
+          If you know the answers — or even better, if you've lived through something worth sharing — I want to connect with you.
         </p>
       </ContentSection>
       
