@@ -88,10 +88,6 @@ const Index = () => {
           If you're building something similar, maybe we can help each other.
         </p>
         
-        <div className="py-8">
-          <h3 className="text-lg font-semibold mb-4">👇 Tell me what you see that I'm missing.</h3>
-          <ContactSection />
-        </div>
       </ContentSection>
       
       {/* Thank You Section */}
