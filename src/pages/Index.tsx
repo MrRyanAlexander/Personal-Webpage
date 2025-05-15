@@ -24,7 +24,7 @@ const Index = () => {
           <div className="space-y-4">
             <p className="text-xl md:text-2xl font-medium">I'm Ryan.</p>
             <p className="text-lg text-muted-foreground">
-              I build things, often break thingg and sometimes fix things.
+              I build things, often break things and sometimes I fix things.
               <br />
               Lately, I've become obsessed with how agents will shape the world beyond what the headlines say. For communities. For families. For individuals trying to get by.
             </p>
