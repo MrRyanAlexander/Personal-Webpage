@@ -4,7 +4,6 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ContentSection } from "@/components/ContentSection";
 import { ImaginationCard } from "@/components/ImaginationsCard";
-import { ContactSection } from "@/components/ContactSection";
 import { Toaster } from "@/components/ui/toaster";
 
 const Index = () => {
