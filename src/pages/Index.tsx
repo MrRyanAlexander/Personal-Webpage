@@ -18,22 +18,22 @@ const Index = () => {
         <div className="space-y-6 animate-fade-in">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
             I Don't Have the Answers. <br className="hidden md:block" />
-            But I'm Asking the Right Questions.
+            But I'm Asking Questions.
           </h1>
           
           <div className="space-y-4">
             <p className="text-xl md:text-2xl font-medium">I'm Ryan.</p>
             <p className="text-lg text-muted-foreground">
-              I build things, break things, fix things.
+              I build things, often break things, and sometimes fix things.
               <br />
-              Lately, I've become obsessed with how agents — autonomous AI systems — will shape the world. Not just for companies, but for communities. For families. For individuals trying to get by.
+              Lately, I've become obsessed with how agents will shape the world. Not just for companies, but for communities. For families. For individuals trying to get by.
             </p>
           </div>
           
           <div className="pt-4">
             <Button
               size="lg"
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('footer')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Let's Connect
             </Button>
@@ -56,7 +56,7 @@ const Index = () => {
         </ul>
         
         <p className="pt-2">
-          If you know the answers — or even better, if you've lived through something worth sharing — I want to hear from you.
+          If you know the answers — or even better, if you've lived through something worth sharing — I want to connect with you.
         </p>
       </ContentSection>
       
@@ -113,7 +113,7 @@ const Index = () => {
       </ContentSection>
       
       <div className="flex-grow"></div>
-      <Footer />
+      <Footer id="footer"/>
     </div>
   );
 };
