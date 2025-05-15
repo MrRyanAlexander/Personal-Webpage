@@ -3,10 +3,7 @@ import { Github, Twitter, Linkedin, Globe, Link } from "lucide-react";
 
 export function Footer() {
   const socialLinks = [
-    { name: "Twitter", icon: <Twitter className="h-5 w-5" />, url: "https://twitter.com/mrryana" },
-    { name: "LinkedIn", icon: <Linkedin className="h-5 w-5" />, url: "https://www.linkedin.com/in/mrryana" },
-    { name: "GitHub", icon: <Github className="h-5 w-5" />, url: "https://github.com/mrryana" },
-    { name: "Website", icon: <Globe className="h-5 w-5" />, url: "https://linktr.ee/mrryana" },
+    { name: "Linktree", icon: <Globe className="h-5 w-5" />, url: "https://linktr.ee/mrryana" },
   ];
 
   return (
@@ -29,7 +26,7 @@ export function Footer() {
         </div>
         
         <div className="flex flex-col items-center justify-center text-center">
-          <p className="text-sm text-muted-foreground">Built in St. Louis, dreaming wide.</p>
+          <p className="text-sm text-muted-foreground">Built with ❤️ in St. Louis, dreaming wide.</p>
           <p className="text-xs text-muted-foreground mt-2">© {new Date().getFullYear()} Ryan A.</p>
         </div>
       </div>
