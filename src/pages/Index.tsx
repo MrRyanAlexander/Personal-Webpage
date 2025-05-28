@@ -55,7 +55,7 @@ const Index = () => {
         </ul>
         
         <p className="pt-2">
-          If you know the answers — or even better, if you've lived through something worth sharing — I want to connect with you.
+          If you know the answers - or even better, if you've lived through something worth sharing - I want to connect with you.
         </p>
       </ContentSection>
       
@@ -79,9 +79,9 @@ const Index = () => {
       </ContentSection>
       
       {/* Challenge Section */}
-      <ContentSection id="challenge" title="Challenge Me — or Help Me Build" emoji="🙋" className="bg-muted/50">
+      <ContentSection id="challenge" title="Challenge Me - or Help Me Build" emoji="🙋" className="bg-muted/50">
         <p>
-          I don't want to work in isolation. I want to be wrong, early and often — and then make it better.
+          I don't want to work in isolation. I want to be wrong, early and often - and then make it better.
           So if you disagree, show me where.
           If you know how to make one of these ideas work better, I'm all ears.
           If you're building something similar, maybe we can help each other.
@@ -93,12 +93,12 @@ const Index = () => {
       <ContentSection id="thank-you" title="Thank You" emoji="💌">
         <div className="space-y-6">
           <p>
-            To the mentors, friends, critics, and strangers who've challenged my thinking or encouraged me to keep going — thank you.
+            To the mentors, friends, critics, and strangers who've challenged my thinking or encouraged me to keep going - thank you.
           </p>
           
           <p className="flex items-center">
             <span className="mr-2">💬</span>
-            To the open-source communities, thinkers who share freely, and everyone creating in public — you've made it possible for people like me to even try.
+            To the open-source communities, thinkers who share freely, and everyone creating in public - you've made it possible for people like me to even try.
           </p>
           
           <div className="pt-6 border-t border-border/50">
