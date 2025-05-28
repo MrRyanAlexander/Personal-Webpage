@@ -26,8 +26,9 @@ export function Footer() {
         </div>
         
         <div className="flex flex-col items-center justify-center text-center">
-          <p className="text-sm text-muted-foreground">Built with ❤️ in St. Louis, dreaming wide.</p>
-          <p className="text-xs text-muted-foreground mt-2">© {new Date().getFullYear()} Ryan A.</p>
+          <p className="text-xs text-muted-foreground mt-2">Built with ❤️ in St. Louis, dreaming wide.</p>
+          <p className="text-md text-muted-foreground mt-2"><a href="https://chatgptstl.com">ChatGPTSTL.com</a></p>
+          <p className="text-xs text-muted-foreground mt-2">{new Date().getFullYear()} © Ryan A.</p>
         </div>
       </div>
     </footer>
