@@ -1,73 +1,61 @@
-# Welcome to your Lovable project
+# Ryan's Questions on AI and the Future
 
-## Project info
+This is the codebase for my personal landing page, where I explore and ask questions about the impact of agents and AI on our communities, families, and individual lives.
 
-**URL**: https://lovable.dev/projects/df7236b9-e51b-49bf-af8b-05e0685eafc3
+The site serves as a platform to share my thoughts, "imaginations" (tiny tools and use cases born from these questions), and an open invitation for others to connect, challenge my thinking, and collaborate.
 
-## How can I edit this code?
+## About
 
-There are several ways of editing your application.
+I'm Ryan, and I build, break, and fix things. Lately, I've been particularly focused on understanding the real-world implications of AI beyond the headlines, especially as we move towards more advanced forms like ever-present AI (AGI).
 
-**Use Lovable**
+This site is not a product pitch or a company website. It's a space for open inquiry and shared exploration of the complex questions surrounding AI's future.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/df7236b9-e51b-49bf-af8b-05e0685eafc3) and start prompting.
+## Project Structure
 
-Changes made via Lovable will be committed automatically to this repo.
+The project is a React application built with Vite, TypeScript, Tailwind CSS, and Shadcn UI.
 
-**Use your preferred IDE**
+Key directories and files:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+*   `src/pages/Index.tsx`: The main landing page component.
+*   `src/components/`: Contains reusable React components used throughout the site.
+*   `src/components/ui/`: Contains Shadcn UI components.
+*   `src/App.tsx`: Sets up the application's routing and context providers.
+*   `index.html`: The main HTML file.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Getting Started
 
-Follow these steps:
+To run this project locally:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1.  **Clone the repository:**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+bash git clone <repository-url>
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+2.  **Navigate to the project directory:**
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+bash cd <project-directory>
 
-**Use GitHub Codespaces**
+3.  **Install dependencies:**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+bash npm install
 
-This project is built with:
+4.  **Start the development server:**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+bash npm run dev
 
-Simply open [Lovable](https://lovable.dev/projects/df7236b9-e51b-49bf-af8b-05e0685eafc3) and click on Share -> Publish.
+The site should now be running at `http://localhost:9002` (or the port specified in the `npm run dev` command).
 
-## Can I connect a custom domain to my Lovable project?
+## Contributing
 
-Yes, you can!
+This project is primarily a personal reflection space, but I welcome contributions in the form of:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+*   **Feedback and Insights:** If you have thoughts, experiences, or different perspectives on the questions I'm asking, please feel free to reach out or open an issue to discuss.
+*   **Suggestions for "Imaginations":** If you have ideas for tiny tools or use cases related to the themes explored here, I'd be happy to hear them.
+*   **Code Improvements:** If you find any bugs or have suggestions for improving the codebase, feel free to open a pull request.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## License
+
+This project is licensed under the [MIT License](LICENSE).
