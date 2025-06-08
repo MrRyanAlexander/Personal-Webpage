@@ -59,24 +59,57 @@ const Index = () => {
         </p>
       </ContentSection>
       
-      {/* Imaginations Section */}
-      <ContentSection id="imaginations" title="Imaginations Made Real" emoji="🧠">
+{/* Serious Side Projects Section */}
+<ContentSection id="serious-projects" title="Serious Side Projects I Care About" emoji="💡">
         <p className="mb-8">
-          I've been sketching, testing, and prototyping different ideas. Tiny tools. Strange use cases. Radical helpers for real life.
-          Here are a few:
+          Here are some of the serious side projects I'm currently focusing on:
         </p>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <ImaginationCard title="A chatbot that helps your city explain its rules in plain English" />
-          <ImaginationCard title="A preparedness assistant that rewards families for completing home safety tasks" />
-          <ImaginationCard title="An agent that can track and flag waste in government workflows" />
-          <ImaginationCard title="A virtual neighborhood guide that explains local history through storytelling" />
-        </div>
-        
-        <p className="mt-8">
-          I'm sharing these not as polished solutions, but as open invitations. You might have a better idea. I hope you do.
-        </p>
+
+        <ul className="list-disc pl-6 space-y-4">
+          <li>
+            <h3 className="font-semibold">Preserving Local History</h3>
+            <p className="text-muted-foreground">
+              Actively working to digitize and ensure the long-term accessibility of vital Florissant, Missouri City Council records (1857-1973), currently vulnerable on microfilm.
+            </p>
+          </li>
+          <li>
+            <h3 className="font-semibold">Building OpenDMS</h3>
+            <p className="text-muted-foreground">
+              Developing an open-source debris management system to provide a transparent, efficient, and cost-effective alternative to proprietary solutions, aiming to deliver greater value for taxpayers.
+            </p>
+          </li>
+          <li>
+            <h3 className="font-semibold">AI in Education</h3>
+            <p className="text-muted-foreground">
+              Focused on developing AI applications that enhance cognitive skills like thinking, memory, and focus, and exploring the potential of AI as a continuous learning companion.
+            </p>
+          </li>
+          <li>
+            <h3 className="font-semibold">Prioritizing Family Well-being</h3>
+            {/* You can add more specific details here if you like, or keep it concise */}
+          </li>
+          <li>
+            <h3 className="font-semibold">AI-Enhanced Personalized Learning</h3>
+            <p className="text-muted-foreground">
+              Applying AI to create dynamic lesson plans and gather feedback for continuous improvement, fostering a more effective and engaging learning experience for children.
+            </p>
+          </li>
+          <li>
+            <h3 className="font-semibold">Maintaining Industry Connections</h3>
+            <p className="text-muted-foreground">
+              Actively engaging with opportunities in seasonal work to stay current with industry practices and build a diverse professional portfolio.
+            </p>
+          </li>
+          <li>
+            <h3 className="font-semibold">Exploring New Ventures</h3>
+            <p className="text-muted-foreground">
+              Strategically developing tools and leveraging technical skills to build sustainable, independent income streams.
+            </p>
+          </li>
+        </ul>
       </ContentSection>
+
+
       
       {/* Challenge Section */}
       <ContentSection id="challenge" title="Challenge Me - or Help Me Build" emoji="🙋" className="bg-muted/50">
