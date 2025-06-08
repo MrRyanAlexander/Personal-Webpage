@@ -59,8 +59,8 @@ const Index = () => {
         </p>
       </ContentSection>
       
-{/* Serious Side Projects Section */}
-<ContentSection id="serious-projects" title="Serious Side Projects I Care About" emoji="💡">
+      {/* Serious Side Projects Section */}
+      <ContentSection id="serious-projects" title="Serious Side Projects I Care About" emoji="💡">
         <p className="mb-8">
           Here are some of the serious side projects I'm currently focusing on:
         </p>
@@ -84,32 +84,35 @@ const Index = () => {
               Focused on developing AI applications that enhance cognitive skills like thinking, memory, and focus, and exploring the potential of AI as a continuous learning companion.
             </p>
           </li>
+        </ul>
+      </ContentSection>
+
+      {/* Personal Projects Section */}
+      <ContentSection id="personal-projects" title="In my personal life, I'm working on..." emoji="❤️">
+        <p className="mb-8">
+          my daughters education, legacy work, and my own development.
+        </p>
+        <ul className="list-disc pl-6 space-y-4">
           <li>
-            <h3 className="font-semibold">Prioritizing Family Well-being</h3>
-            {/* You can add more specific details here if you like, or keep it concise */}
-          </li>
-          <li>
-            <h3 className="font-semibold">AI-Enhanced Personalized Learning</h3>
+            <h3 className="font-semibold">AI-Enhanced Learning</h3>
             <p className="text-muted-foreground">
-              Applying AI to create dynamic lesson plans and gather feedback for continuous improvement, fostering a more effective and engaging learning experience for children.
+              Using AI to create dynamic lesson plans and gather feedback with my daughters, fostering a more engaging learning experience.
             </p>
           </li>
           <li>
-            <h3 className="font-semibold">Maintaining Industry Connections</h3>
+            <h3 className="font-semibold">Disaster Response Engagement</h3>
             <p className="text-muted-foreground">
-              Actively engaging with opportunities in seasonal work to stay current with industry practices and build a diverse professional portfolio.
+              Staying active in disaster recovery to keep skills sharp and build a diverse professional network.
             </p>
           </li>
           <li>
-            <h3 className="font-semibold">Exploring New Ventures</h3>
+            <h3 className="font-semibold">Building Sustainable Ventures</h3>
             <p className="text-muted-foreground">
-              Strategically developing tools and leveraging technical skills to build sustainable, independent income streams.
+              Developing tools and leveraging tech skills to create sustainable income streams.
             </p>
           </li>
         </ul>
       </ContentSection>
-
-
       
       {/* Challenge Section */}
       <ContentSection id="challenge" title="Challenge Me - or Help Me Build" emoji="🙋" className="bg-muted/50">
